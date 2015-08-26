@@ -1,7 +1,7 @@
 $(document).ready(function (){
 
   // create a LatLng object containing the coordinate for the center of the map
-  var latlng = new google.maps.LatLng(-33.86455, 151.209);
+  var latlng = new google.maps.LatLng(35.303207, -97.477658);
 
   // prepare the map properties
   var options = {
@@ -29,6 +29,6 @@ $(document).ready(function (){
 
   // add information window
   var infowindow = new google.maps.InfoWindow({
-    content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
+    content:  '<div class="info"><strong>Raise The Roof Roofing</strong><br><br>Moore, OK</div>'
   });  
 });
