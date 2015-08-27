@@ -30,7 +30,7 @@
 							<li><a href="#about">About</a></li>
 							<li><a href="#services">Services</a></li>
 							<li><a href="#testimonials">Testimonials</a></li>
-							<li><a href="#">Free Inspection</a></li>
+							<li><a href="#google_map">Free Inspection</a></li>
 							<li><a href="#google_map">Contact</a></li>        
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -85,22 +85,22 @@
 			<div class="container">
 				<h2 class="text-center">Our Services</h2> <hr />
 				<div class="row text-center">
-					<div class="col-xs-3">
+					<div class="col-sm-3 col-xs-6">
 						<i class="glyphicon glyphicon-tent"> </i>
 						<h4>Roofing</h4>
 						<p>RTR Roofing can be trusted for all of your roofing repairs, replacements or seasonal maintenance needs. we understands how important your home is to you. As your local residential roofing contractor, we’d like to help you protect your family and your investment by delivering top-notch quality and service at a fair price. Delivered on time by a team of professional roofers, trained in all aspects of roofing construction, design, installation and maintenance. </p>
 					</div>
-					<div class="col-xs-3">
+					<div class="col-sm-3 col-xs-6">
 						<i class="glyphicon glyphicon-tasks"> </i>
 						<h4>Guttering</h4>
 						<p>Gutters play a critical role in keeping your roof working efficiently. The application of guttering and siding is often considered a “cosmetic” addition to a building. But these products actually do much more. Alpine Roofing recommends gutters and siding in order to prevent structural damage through water intrusion and add to property value.</p>
 					</div>
-					<div class="col-xs-3">
+					<div class="col-sm-3 col-xs-6">
 						<i class="glyphicon glyphicon-forward"> </i>
 						<h4>Siding</h4>
 						<p>There are many different types of siding available. We specialize in fiber-cement, vinyl, wood, aluminum or steel wall siding and trim materials. The product benefits vary. Our sales team will present to you the different options available and the comparative benefits for product longevity, maintenance and performance, fire rating, cost & warranty comparison.</p>
 					</div>
-					<div class="col-xs-3">
+					<div class="col-sm-3 col-xs-6">
 						<i class="glyphicon glyphicon-align-justify"> </i>
 						<h4>Fencing</h4>
 						<p>Whether you need cedar privacy fencing, ornamental iron fencing around your pool, a beautiful vinyl fence suited to impress your neighbors, or a vast array of other types of fence including custom fences, we can do the job for you.</p>
@@ -187,13 +187,44 @@
 			<!-- /fifth section -->
 
 
-			
 
-				<div class="contact">
-					contact form here
+
+			<section class="google-map">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6">	
+							<form class="contact">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Full Name">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+
+								<div class="form-group">
+									<label for="phone">Phone</label>
+									<input type="tel" class="form-control" id="phone" placeholder="phone number">
+								</div>
+								<br>
+								<div class="form-group">									
+									<textarea rows="6" cols="60" id="message" placeholder="Enter your message here..."></textarea>										</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+
+						</div>
+
+
+
+						<div class="col-sm-6">
+							<div id="google_map" class="google-map"></div>
+						</div>
+					</div>					
 				</div>
+			</section>	
 
-				<div id="google_map" class="google-map"></div>
+
 
 
 
@@ -201,7 +232,7 @@
 			<footer>
 				<hr />
 				<div class="container">
-					<p class="text-right">Copyright &copy; Raise The Roof Roofing 2015</p>
+					<p class="lead text-right">Copyright &copy; Raise The Roof Roofing 2015</p>
 				</div>
 			</footer>
 			<!-- /footer -->
