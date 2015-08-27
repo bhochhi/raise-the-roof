@@ -27,15 +27,19 @@ html, body {
 
 /* additional sections */
 #home {
-	background: url(../images/home.jpg) no-repeat center center fixed; 
+	background: url(../images/capstone.jpg) no-repeat center center fixed; 
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	opacity: 0.8;
 }
 .home h1{
-	color:darkgreen;
+	color:green;
+}
+.home h3{
+	color:#FFFFFF;
 }
 
 
