@@ -29,6 +29,6 @@ $(document).ready(function (){
 
   // add information window
   var infowindow = new google.maps.InfoWindow({
-    content:  '<address> <strong>Raise The Roof Roofing, LLC.</strong><br>P.O. BOX 6158<br> Moore, OK 73153<br><abbr title="Phone">P:</abbr> (405) 441-0529</address><address><strong>Full Name</strong><br><a href="mailto:#">first.last@example.com</a></address>'
+    content:  '<address> <strong>Raise The Roof Roofing, LLC.</strong><br>P.O. BOX 6158<br> Moore, OK 73153<br><abbr title="Phone">P:</abbr> (405) 441-0529</address><address><strong>Full Name</strong><br><a href="mailto:#">Gmilchesky@yahoo.com</a></address>'
 	});  
 });
