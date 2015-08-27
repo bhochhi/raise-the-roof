@@ -32,14 +32,12 @@ html, body {
   height: 100%;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
-
-#about {
+.home h1{
+	color:#90EE90;
 }
+
 
 #services {
   background-color: #306d9f;
@@ -57,19 +55,19 @@ html, body {
   width: 140px;
 }
 
-#information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
+#testimonials {
+  background: url(../images/main.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
+#testimonials .panel {
   opacity: 0.85;
+}
+#testimonials .container> h2{
+	color: #ffffff;
 }
 
 #google_map {
@@ -86,3 +84,10 @@ footer .glyphicon {
 footer .glyphicon:hover {
   color: #306d9f;
 }
+.google-map{
+}
+.contact{
+	width:50%;
+	display: inline-block;
+}
+
